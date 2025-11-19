@@ -1,12 +1,45 @@
-<div class="header-wrapper" id="header-wrapper">
-  <div class="header-title">Southwest Columbus Ham Radio Club</div>
-  <button class="menu-toggle" id="menu-button">☰</button>
+<div class="header-image-wrapper">
+  <img src="/_images/swchrc-base.webp" alt="Header" class="header-image" id="header-base-image" style="display: none;" />
+  <img src="/_images/swchrc-xmas.webp" alt="Header" class="header-image" id="header-xmas-image" style="display: none;" />
+</div>
+<div class="header-outer-wrapper">
+  <div class="header-wrapper" id="header-wrapper">
+    <div>Southwest Columbus Ham Radio Club</div>
+    <button class="menu-toggle" id="menu-button">☰</button>
+  </div>
+
+  <nav class="navigation-menu">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/content/index.html">Content</a></li>
+      <li><a href="/content2/index.html">Content 2</a></li>
+    </ul>
+  </nav>
 </div>
 
-<nav class="navigation-menu">
-  <ul>
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/content/index.html">Content</a></li>
-    <li><a href="/content2/index.html">Content 2</a></li>
-  </ul>
-</nav>
+<script>
+  const images = [
+    { month: 1, image: 'header-base-image' },
+    { month: 2, image: 'header-base-image' },
+    { month: 3, image: 'header-base-image' },
+    { month: 4, image: 'header-base-image' },
+    { month: 5, image: 'header-base-image' },
+    { month: 6, image: 'header-base-image' },
+    { month: 7, image: 'header-base-image' },
+    { month: 8, image: 'header-base-image' },
+    { month: 9, image: 'header-base-image' },
+    { month: 10, image: 'header-base-image' },
+    { month: 11, image: 'header-base-image' },
+    { month: 12, image: 'header-xmas-image' },
+  ];
+  const month = (new Date()).getMonth() + 1;
+  console.log(month, typeof month);
+  
+  for (let i = 0, len = images.length; i < len; i++) {
+    if (images[i].month === month) {
+      const headerImage = document.getElementById(images[i].image);
+      headerImage.setAttribute('style', 'display: block;');
+      break;
+    }
+  }
+</script>

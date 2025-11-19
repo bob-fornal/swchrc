@@ -3,15 +3,21 @@ body {
 }
 
 /* Navigation */
+.header-outer-wrapper {
+  position: relative;
+}
+
 .header-wrapper {
   display: flex;
   flex-direction: column;
   gap: 1em;
 
-  padding: 0.5em 1.85em;
+  padding: 0.5em 1em;
   background-color: blue;
   color: white;
+  font-weight: bold;
   font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-toggle {
@@ -20,6 +26,7 @@ body {
 
 .navigation-menu {
   display: block;
+  font-family: Arial, Helvetica, sans-serif;
 
   ul {
     display: flex;
@@ -70,8 +77,8 @@ body {
   .navigation-menu {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 4em;
-    width: calc(100% - 1em);
+    top: 2em;
+    width: 100%;
 
     ul {
       flex-direction: column;
@@ -91,19 +98,89 @@ body {
 }
 
 /* Content */
+.header-image-wrapper {
+  max-width: 1000px;
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+}
 .wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   flex-direction: column;
 
   .content-wrapper {
-    background-color: #e3e1d2;
+    background-color: lightblue;
     padding: 1em 2em;
     min-height: calc(100vh - 0px);
     margin-top: 1em;
 
     font-size: 1.1em;
     font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+.box {
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+
+  &.blue {
+    background-color: #007bff;
+    color: white
+  }
+}
+
+/* Columns */
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 1em;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Headers */
+.header {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &.orange {
+    color: orange;
+    margin-top: 0 !important;
+    margin-bottom: 0.5em;
+  }
+
+  &:not(.sub) {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  &.sub {
+    font-size: 1.1em;
   }
 }

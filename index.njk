@@ -1,13 +1,13 @@
 <html>
   <head>
     <title>SWHRC</title>
-    <link rel="stylesheet" type="text/css" href="index.css?v=" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div class="wrapper" id="wrapper">
-      {% include "header.html" %}
-      {% include "home.html" %}
+      {% include 'header.html' %}
+      {% renderFile './_includes/home.md' %}
       {% include 'footer.html' %}
     </div>
   </body>
