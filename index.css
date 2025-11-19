@@ -12,12 +12,17 @@ body {
   flex-direction: column;
   gap: 1em;
 
-  padding: 0.5em 1em;
+  padding: 1em;
   background-color: blue;
   color: white;
   font-weight: bold;
   font-size: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
+
+  .header-title {
+    color: yellow;
+    text-align: center;
+  }
 }
 
 .menu-toggle {
@@ -35,13 +40,9 @@ body {
     padding: 0;
     background-color: #333;
 
-    li {
-      margin-right: 0.85em;
-    }
-
     a {
       display: block;
-      padding: 1em 1.25em;
+      padding: 1em;
       color: white;
       text-decoration: none;
 
@@ -49,6 +50,14 @@ body {
         background-color: #555;
       }
     }
+  }
+}
+
+.link {
+
+  &.selected {
+    color: yellow;
+    background-color: #777;
   }
 }
 
@@ -130,6 +139,12 @@ body {
   background-color: white;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -143,10 +158,19 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   transition: background-color 0.3s ease;
+  box-sizing: border-box;
 
   &.blue {
-    background-color: #007bff;
+    background-color: blue;
     color: white
+  }
+  &.green {
+    background-color: green;
+    color: white;
+  }
+
+  &.wide {
+    width: 100%;
   }
 }
 

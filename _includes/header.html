@@ -4,18 +4,39 @@
 </div>
 <div class="header-outer-wrapper">
   <div class="header-wrapper" id="header-wrapper">
-    <div>Southwest Columbus Ham Radio Club</div>
+    <div class="header-title">Southwest Columbus Ham Radio Club</div>
     <button class="menu-toggle" id="menu-button">☰</button>
   </div>
 
   <nav class="navigation-menu">
     <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/content/index.html">Content</a></li>
-      <li><a href="/content2/index.html">Content 2</a></li>
+      <li><a class="link" id="index" href="/index.html">Home</a></li>
+      <li><a class="link" id="content" href="/content/index.html">Content</a></li>
+      <li><a class="link" id="content2" href="/content2/index.html">Content 2</a></li>
     </ul>
   </nav>
 </div>
+
+<script>
+  const urlChecks = [
+    '/content2',
+    '/content',
+    '/index',
+  ];
+  function selectLink(id) {
+    const link = document.getElementById(id);
+    link.classList.add('selected');
+  }
+  function initialize() {
+    for (let i = 0, len = urlChecks.length; i < len; i++) {
+      if (window.location.pathname.startsWith(urlChecks[i])) {
+        selectLink(urlChecks[i].replace('/', ''));
+        break;
+      }
+    }
+  }
+  initialize();
+</script>
 
 <script>
   const images = [

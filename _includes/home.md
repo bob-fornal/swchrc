@@ -12,16 +12,31 @@ While this repeater has been on the air for over 30 years, its home to a small a
 
 <a class="btn blue" href="https://nebula.wsimg.com/8c2e8667edfca1f60ec149fefcab303b?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1">QST article about the SWCHRC</a>
 
-  <div class="columns">
-    <div class="column">
-      <div>Club Email: <a href="mailto:swchrc@gmail.com">swchrc@gmail.com</a></div>
-        <div class="header">Thursday Night Nets</div>
-        <div class="header sub">145.23- on the WB8MMR Repeater</div>
+<div>Club Email: <a href="mailto:swchrc@gmail.com">swchrc@gmail.com</a></div>
+
+<div class="columns">
+  <div class="column">
+    <div class="header">Thursday Night Nets</div>
+    <div class="header sub">145.23- on the WB8MMR Repeater</div>
 
 * Check in with us at 8:30 p.m.
 * Calvin N8RFY runs the net.
 * You do not need to be a member to check in and club members are encouraged to be control operators.
 * We have an informal 10 meter net Thursdays at 8:00 pm EST on **28.405**, shortly before the start of the 2 meter net, drop in and introduce yourself. 
+
+<a class="btn green wide" href="https://nebula.wsimg.com/3dd7ec7df47ae3709bd821483fcf63ce?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Join the Club!</a>
+
+<a class="btn blue wide" href="https://nebula.wsimg.com/04f0d1e942b065593d10b666240e61da?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Club Preamble</a>
+
+<a class="btn green wide" href="https://nebula.wsimg.com/30e2bbb6114eba6a5a320145e51e5a95?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Area Nets</a>
+
+<a class="btn blue wide" href="http://arrl-ohio.org/" target="_blank">ARRL Ohio Section</a>
+
+<div class="center">
+  <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!">
+  <img src="https://www.hamqsl.com/solar101pic.php" alt="Solar Report Data">
+  </a>
+</div>
 
 </div>
     <div class="column">
