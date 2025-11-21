@@ -1,0 +1,224 @@
+{
+  "ORDER": [
+    "club",
+    "highlights",
+    "ohio",
+    "hardware",
+    "antennas",
+    "reference",
+    "projects",
+    "vendors"
+  ],
+  "highlights": {
+    "title": "Highlights",
+    "classes": "two-column",
+    "links": [{
+      "title": "KD8WQU's Imguer Photo Links",
+      "link": "https://imgur.com/user/KD8WQU",
+      "classes": "red"
+    }, {
+      "title": "Tamitha Skov presentation on solar flux",
+      "link": "https://www.youtube.com/watch?v=L6L-FutZmw8",
+      "classes": "blue"
+    }, {
+      "title": "New FAQ's: Look here for help",
+      "link": "https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-faq.doc",
+      "classes": "green"
+    }, {
+      "title": "QRZ: DX Code of Conduct",
+      "link": "https://www.qrz.com/db/AF7S#dx",
+      "classes": "blue"
+    }, {
+      "title": "Broadcast Radio History",
+      "link": "https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History",
+      "classes": "blue"
+    }, {
+      "title": "ARRL Amateur Radio Bands",
+      "link": "https://www.arrl.org/images/view//Charts/Band_Chart_Image_for_ARRL_Web.jpg",
+      "classes": "blue"
+    }]
+  },
+  "club": {
+    "title": "Club",
+    "classes": "two-column",
+    "links": [{
+      "title": "SWCHRC Application (PDF)",
+      "link": "https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-membership-application.pdf",
+      "classes": "green"
+    }]
+  },
+  "ohio": {
+    "title": "Ohio Links",
+    "classes": "four-column",
+    "links": [{
+      "title": "ARRL",
+      "link": "https://www.arrl.org/",
+      "classes": "blue"
+    }, {
+      "title": "ARRL Annual Reports",
+      "link": "https://www.arrl.org/annual-reports",
+      "classes": "blue"
+    }, {
+      "title": "ARRL - Great Lakes",
+      "link": "https://www.arrl-greatlakes.org/",
+      "classes": "blue"
+    }, {
+      "title": "Ohio Amateur Repeaters",
+      "link": "https://www.repeaterbook.com/repeaters/Display_SS.php?state_id=39&band=14&freq=%&band6=%&loc=%&county_id=%&call=%&status_id=%&features=%&system=%&coverage=%&use=%",
+      "classes": "blue"
+    }, {
+      "title": "Ohio Section Journal",
+      "link": "https://n8sy2.blogspot.com/",
+      "classes": "blue"
+    }, {
+      "title": "Artsci Publications [Ohio Repeaters]",
+      "link": "http://www.artscipub.com/repeaters/search/index.asp?state=Ohio",
+      "classes": "blue"
+    }, {
+      "title": "Skywarn (Wilmington, OH)",
+      "link": "https://www.weather.gov/iln/skywarn_ham",
+      "classes": "blue"
+    }]
+  },
+  "hardware": {
+    "title": "Hardware",
+    "classes": "four-column",
+    "links": [{
+      "title": "LICW Haptic Device for Morse Code (hearing impared)",
+      "link": "https://longislandcwclub.org/cw-for-the-hearing-impaired/",
+      "classes": "blue"
+    }]
+  },
+  "antennas": {
+    "title": "Antenna Links",
+    "classes": "four-column",
+    "links": [{
+      "title": "Antenna Calculator",
+      "link": "http://www.csgnetwork.com/freqwavelengthcalc.html",
+      "classes": "green"
+    }, {
+      "title": "Ground Plane Calculator",
+      "link": "http://www.csgnetwork.com/antennagpcalc.html",
+      "classes": "green"
+    }]
+  },
+  "reference": {
+    "title": "Reference Links",
+    "classes": "four-column",
+    "links": [{
+      "title": "QRZ Lookup",
+      "link": "https://www.qrz.com/lookup",
+      "classes": "blue"
+    }, {
+      "title": "N5DUX Ham Radio PDFs",
+      "link": "https://www.n5dux.com/ham/files/pdf/",
+      "classes": "blue"
+    }, {
+      "title": "FCC FAQ",
+      "link": "https://www.fcc.gov/what-can-we-help-you-find",
+      "classes": "blue"
+    }, {
+      "title": "AE7Q License Query",
+      "link": "https://www.ae7q.com/query/",
+      "classes": "blue"
+    }, {
+      "title": "Internet Radio Linking Project (IRLP)",
+      "link": "https://irlp.net/",
+      "classes": "blue"
+    }, {
+      "title": "Automatic Link Establishment (ALE)",
+      "link": "https://hflink.com/alestart/",
+      "classes": "blue"
+    }, {
+      "title": "All About Circuits",
+      "link": "https://www.allaboutcircuits.com/education/",
+      "classes": "purple"
+    }, {
+      "title": "eHam.net Articles",
+      "link": "https://www.eham.net/",
+      "classes": "blue"
+    }, {
+      "title": "The DXZone",
+      "link": "https://www.dxzone.com/",
+      "classes": "blue"
+    }, {
+      "title": "Ham Nation",
+      "link": "https://twit.tv/shows/ham-nation",
+      "classes": "blue"
+    }, {
+      "title": "Electronics Notes",
+      "link": "https://www.electronics-notes.com/",
+      "classes": "blue"
+    }]
+  },
+  "projects": {
+    "title": "Projects",
+    "classes": "four-column",
+    "links": [{
+      "title": "DIY SDR",
+      "link": "https://www.rtl-sdr.com/about-rtl-sdr/",
+      "classes": "blue"
+    }, {
+      "title": "Ham TV",
+      "link": "https://www.hamtv.com/",
+      "classes": "blue"
+    }, {
+      "title": "Maker Space: Arduino",
+      "link": "https://maker.pro/",
+      "classes": "green"
+    }]
+  },
+  "vendors": {
+    "title": "Vendors",
+    "classes": "four-column",
+    "links": [{
+      "title": "Amateir Radio Supplies",
+      "link": "https://amateurradiosupplies.com/",
+      "classes": "blue"
+    }, {
+      "title": "DX Engineering",
+      "link": "http://www.dxengineering.com/",
+      "classes": "blue"
+    }, {
+      "title": "Ham Radio Outlet",
+      "link": "https://www.hamradio.com/",
+      "classes": "blue"
+    }, {
+      "title": "Mouser Electronics",
+      "link": "https://www.mouser.com/",
+      "classes": "blue"
+    }, {
+      "title": "Newark Electronics",
+      "link": "https://www.newark.com/",
+      "classes": "blue"
+    }, {
+      "title": "N3FJP Amateur Radio Software (loggers)",
+      "link": "https://n3fjp.com/",
+      "classes": "blue"
+    }, {
+      "title": "Orange County ARC [Suppliers]",
+      "link": "https://www.w6ze.org/HR_Suppliers.html",
+      "classes": "blue"
+    }, {
+      "title": "Palomar Engineers",
+      "link": "https://palomar-engineers.com/",
+      "classes": "blue"
+    }, {
+      "title": "Radio Shack Catalog Archive",
+      "link": "https://www.radioshackcatalogs.com/",
+      "classes": "green"
+    }, {
+      "title": "The RF Connection",
+      "link": "https://rfconnection.com/",
+      "classes": "blue"
+    }, {
+      "title": "Ted's Discount Electronics",
+      "link": "https://www.tedss.com/",
+      "classes": "blue"
+    }, {
+      "title": "Universal Radio",
+      "link": "https://www.universal-radio.com/",
+      "classes": "blue"
+    }]
+  }
+}

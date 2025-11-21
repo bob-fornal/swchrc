@@ -11,7 +11,7 @@
   <nav class="navigation-menu">
     <ul>
       <li><a class="link" id="index" href="/index.html">Home</a></li>
-      <li><a class="link" id="content" href="/content/index.html">Content</a></li>
+      <li><a class="link" id="links" href="/links/index.html">Links</a></li>
       <li><a class="link" id="content2" href="/content2/index.html">Content 2</a></li>
     </ul>
   </nav>
@@ -20,7 +20,7 @@
 <script>
   const urlChecks = [
     '/content2',
-    '/content',
+    '/links',
     '/index',
   ];
   function selectLink(id) {
@@ -54,7 +54,6 @@
     { month: 12, image: 'header-xmas-image' },
   ];
   const month = (new Date()).getMonth() + 1;
-  console.log(month, typeof month);
   
   for (let i = 0, len = images.length; i < len; i++) {
     if (images[i].month === month) {

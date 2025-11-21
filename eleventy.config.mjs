@@ -18,6 +18,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(RenderPlugin);
 
 	eleventyConfig.addPassthroughCopy("index.css");
+	eleventyConfig.addPassthroughCopy("assets");
 
 	eleventyConfig.setLibrary("md", markdownIt(options).use(markdownItAnchor, {
 		permalink: markdownItAnchor.permalink.headerLink()

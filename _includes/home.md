@@ -24,9 +24,9 @@ While this repeater has been on the air for over 30 years, its home to a small a
 * You do not need to be a member to check in and club members are encouraged to be control operators.
 * We have an informal 10 meter net Thursdays at 8:00 pm EST on **28.405**, shortly before the start of the 2 meter net, drop in and introduce yourself. 
 
-<a class="btn green wide" href="https://nebula.wsimg.com/3dd7ec7df47ae3709bd821483fcf63ce?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Join the Club!</a>
+<a class="btn green wide" href="https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-membership-application.pdf" target="_blank">Join the Club!</a>
 
-<a class="btn blue wide" href="https://nebula.wsimg.com/04f0d1e942b065593d10b666240e61da?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Club Preamble</a>
+<a class="btn blue wide" href="https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-preamble.pdf" target="_blank">Club Preamble</a>
 
 <a class="btn green wide" href="https://nebula.wsimg.com/30e2bbb6114eba6a5a320145e51e5a95?AccessKeyId=99E7700D3ED26ABFEAE4&disposition=0&alloworigin=1" target="_blank">Area Nets</a>
 
@@ -46,11 +46,13 @@ While this repeater has been on the air for over 30 years, its home to a small a
 * They are held at Southwest Public Libraries: Grove City Library: 3959 Broadway, Grove City, OH 43123, USA
 
 <div class="box">
-  <div class="header orange">Ham and Eggs</div>
+  <div class="peanut">Ham and Eggs</div>
   <div>Breakfast 8:30 am EST on the First Saturday of each month.</div>
+  <hr/>
+  <img src="/_images/swchrc-at-tjs.webp" alt="SWHRC at TJs" />
+  <hr/>
   <div>Tee Jaye's Country Place</div>
   <div>4048 W Broad St Columbus, OH 43228</div>
-  <img src="/_images/swchrc-at-tjs.webp" alt="SWHRC at TJs" />
 </div>
 
 <div class="header">Your Club's Officers</div>

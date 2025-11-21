@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>SWHRC</title>
+    <link rel="stylesheet" type="text/css" href="../index.css?v=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      {% include "header.html" %}
+
+      <div class="content-wrapper">
+        <div class="filter-wrapper">
+          <input type="text" id="filter" />
+          <button id="trigger-filter">Search</button>
+          <button id="trigger-clear">Clear</button>
+        </div>
+
+        {% for list in links.ORDER %}
+          <div class="header">{{ links[list].title }}</div>
+
+          <div class="link-wrapper {{ links[list].classes }}">
+            {% for site in links[list].links %}
+              <a class="btn small-text {{ site.classes }}" href="{{ site.link }}" target="_blank" data-filter="{{ site.title }}">{{ site.title }}</a>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+
+<script>
+  const elements = document.querySelectorAll('[data-filter]');
+  const filterInput = document.getElementById('filter');
+  const filterTrigger = document.getElementById('trigger-filter');
+  const filterClear = document.getElementById('trigger-clear');
+
+  function triggerFilter() {
+    const filterOn = filterInput.value.toLowerCase();
+
+    elements.forEach((element) => {
+      const title = element.getAttribute('data-filter').toLowerCase();
+      if (title.includes(filterOn)) {
+        element.setAttribute('style', 'display: block');
+      } else {
+        element.setAttribute('style', 'display: none');
+      }
+    });
+  }
+  function triggerClear() {
+    filterInput.value = '';
+    triggerFilter();
+  }
+
+  filterInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      triggerFilter();
+    }
+  })
+  filterTrigger.addEventListener('click', triggerFilter);
+  filterClear.addEventListener('click', triggerClear);
+</script>
+
+
+      {% include 'footer.html' %}
+    </div>
+  </body>
+</html>
