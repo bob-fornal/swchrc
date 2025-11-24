@@ -101,8 +101,10 @@ body {
   .navigation-menu {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 2em;
-    width: 100%;
+    top: 5em;
+    left: 2em;
+    width: calc(100% - 4em);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
 
     ul {
       flex-direction: column;
@@ -216,6 +218,20 @@ button {
   }
 }
 
+@media (max-width: 768px) {
+  .box-container {
+
+    .box-wrapper {
+      width: 500px;
+
+      img {
+        width: 500px;
+        height: auto;
+      }
+    }
+  }
+}
+
 /* Buttons */
 .btn {
   display: flex;
@@ -231,6 +247,7 @@ button {
   font-family: sans-serif;
   transition: background-color 0.3s ease;
   box-sizing: border-box;
+  margin-bottom: 0.75em;
 
   &:not(.small-text) {
     font-size: 1em;
@@ -259,6 +276,10 @@ button {
   &.wide {
     width: 100%;
   }
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* Headers */
