@@ -5,8 +5,12 @@
     "ohio",
     "hardware",
     "antennas",
+    "baluns",
+    "space",
     "reference",
+    "history",
     "projects",
+    "repair-shops",
     "vendors"
   ],
   "highlights": {
@@ -22,15 +26,11 @@
       "classes": "blue"
     }, {
       "title": "New FAQ's: Look here for help",
-      "link": "https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-faq.doc",
+      "link": "https://media.swchrc.com/swchrc-faq.doc",
       "classes": "green"
     }, {
       "title": "QRZ: DX Code of Conduct",
       "link": "https://www.qrz.com/db/AF7S#dx",
-      "classes": "blue"
-    }, {
-      "title": "Broadcast Radio History",
-      "link": "https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History",
       "classes": "blue"
     }, {
       "title": "ARRL Amateur Radio Bands",
@@ -43,7 +43,7 @@
     "classes": "two-column",
     "links": [{
       "title": "SWCHRC Application (PDF)",
-      "link": "https://pub-4a58b4949b0547fb909f92b7a0f56dbb.r2.dev/swchrc-membership-application.pdf",
+      "link": "https://media.swchrc.com/swchrc-membership-application.pdf",
       "classes": "green"
     }]
   },
@@ -97,9 +97,63 @@
       "link": "http://www.csgnetwork.com/freqwavelengthcalc.html",
       "classes": "green"
     }, {
+      "title": "End-Fed Antenna Lengths",
+      "link": "https://udel.edu/~mm/ham/randomWire/",
+      "classes": "green"
+    }, {
       "title": "Ground Plane Calculator",
       "link": "http://www.csgnetwork.com/antennagpcalc.html",
       "classes": "green"
+    }, {
+      "title": "G5RV Louis Varney",
+      "link": "http://www.astrosurf.com/luxorion/qsl-g5rv.htm",
+      "classes": "green"
+    }, {
+      "title": "K5LAD Repairing a Rotor",
+      "link": "https://www.hayseed.net/~jpk5lad/Rotors/Rotator%20Repair%20Menu.htm",
+      "classes": "green"
+    }, {
+      "title": "Antennas of the World",
+      "link": "https://www.i1wqrlinkradio.com/category/antennas.htm",
+      "classes": "green"
+    }, {
+      "title": "N6LF Antenna Information Web Page",
+      "link": "https://www.antennasbyn6lf.com/",
+      "classes": "green"
+    }]
+  },
+  "baluns": {
+    "title": "Baluns",
+    "classes": "four-column",
+    "links": [{
+      "title": "Baluns: Choosing the Correct Balun",
+      "link": "https://www.dxengineering.com/techarticles/balunsandfeedlinechokes/baluns-choosing-the-correct-balun",
+      "classes": "green"
+    }, {
+      "title": "VK5AJL on Baluns",
+      "link": "http://vk5ajl.com/projects/baluns.php",
+      "classes": "green"
+    }]
+  },
+  "history": {
+    "title": "History",
+    "classes": "four-column",
+    "links": [{
+      "title": "Broadcast Radio History",
+      "link": "https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History",
+      "classes": "blue"
+    }, {
+      "title": "Heathkit Virtual Museum",
+      "link": "https://www.heathkit-museum.com/",
+      "classes": "blue"
+    }, {
+      "title": "Radio Shack Catalog Archive",
+      "link": "https://www.radioshackcatalogs.com/",
+      "classes": "green"
+    }, {
+      "title": "The History of Car Radio",
+      "link": "https://www.titlemax.com/articles/the-history-of-the-car-radio/",
+      "classes": "blue"
     }]
   },
   "reference": {
@@ -149,6 +203,55 @@
       "title": "Electronics Notes",
       "link": "https://www.electronics-notes.com/",
       "classes": "blue"
+    }, {
+      "title": "N8SY DMR Nets",
+      "link": "https://media.swchrc.com/n8sy-dmr-nets-compressed.pdf",
+      "classes": "blue"
+    }, {
+      "title": "RadioReference: Motorola Forum",
+      "link": "https://forums.radioreference.com/forums/motorola-forum.22/",
+      "classes": "blue"
+    }, {
+      "title": "SA7AUY's Heathkit Pages",
+      "link": "http://www.heathkit.nu/heathkit_nu_MyHeaths.html",
+      "classes": "blue"
+    }, {
+      "title": "BatLabs (Motorola)",
+      "link": "https://www.batlabs.com/",
+      "classes": "blue"
+    }, {
+      "title": "Lightning Prediction Map",
+      "link": "https://www.blitzortung.org/en/live_lightning_maps.php?map=30",
+      "classes": "blue"
+    }, {
+      "title": "Lightning Maps",
+      "link": "https://www.lightningmaps.org/",
+      "classes": "blue"
+    }, {
+      "title": "W8JI Technical Resources",
+      "link": "https://www.w8ji.com/",
+      "classes": "green"
+    }, {
+      "title": "Battery University",
+      "link": "https://batteryuniversity.com/",
+      "classes": "green"
+    }, {
+      "title": "XE3SUN DX Monitor",
+      "link": "https://www.ve3sun.com/",
+      "classes": "blue"
+    }, {
+      "title": "WB9LUR Calling DX",
+      "link": "http://callingdx.com/Weekend-DX.htm",
+      "classes": "blue"
+    }]
+  },
+  "space": {
+    "title": "Space",
+    "classes": "four-column",
+    "links": [{
+      "title": "Space Tracker (N2YO)",
+      "link": "https://www.n2yo.com/?s=25544",
+      "classes": "blue"
     }]
   },
   "projects": {
@@ -168,6 +271,15 @@
       "classes": "green"
     }]
   },
+  "repair-shops": {
+    "title": "Repair Shops",
+    "classes": "four-column",
+    "links": [{
+      "title": "Drake Radio Repair",
+      "link": "http://www.wb4hfn.com/DRAKE/",
+      "classes": "blue"
+    }]
+  },
   "vendors": {
     "title": "Vendors",
     "classes": "four-column",
@@ -178,6 +290,10 @@
     }, {
       "title": "DX Engineering",
       "link": "http://www.dxengineering.com/",
+      "classes": "blue"
+    }, {
+      "title": "GigaParts",
+      "link": "https://www.gigaparts.com/",
       "classes": "blue"
     }, {
       "title": "Ham Radio Outlet",
@@ -196,6 +312,14 @@
       "link": "https://n3fjp.com/",
       "classes": "blue"
     }, {
+      "title": "Ni4L Antennas & Electronics",
+      "link": "https://www.ni4l.com/",
+      "classes": "blue"
+    }, {
+      "title": "Online Components",
+      "link": "https://www.onlinecomponents.com/en/",
+      "classes": "blue"
+    }, {
       "title": "Orange County ARC [Suppliers]",
       "link": "https://www.w6ze.org/HR_Suppliers.html",
       "classes": "blue"
@@ -204,12 +328,12 @@
       "link": "https://palomar-engineers.com/",
       "classes": "blue"
     }, {
-      "title": "Radio Shack Catalog Archive",
-      "link": "https://www.radioshackcatalogs.com/",
-      "classes": "green"
-    }, {
       "title": "The RF Connection",
       "link": "https://rfconnection.com/",
+      "classes": "blue"
+    }, {
+      "title": "RS Americas (Allied Electronics",
+      "link": "https://udel.edu/~mm/ham/randomWire/",
       "classes": "blue"
     }, {
       "title": "Ted's Discount Electronics",

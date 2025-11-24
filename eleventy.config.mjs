@@ -1,5 +1,6 @@
 import { RenderPlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import Nunjucks from "nunjucks";
 
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -7,11 +8,13 @@ import markdownItAnchor from "markdown-it-anchor";
 import eleventyAutoCacheBuster from "eleventy-auto-cache-buster";
 
 export default function (eleventyConfig) {
-	let options = {
+	const options = {
 		html: true,
 		breaks: true,
 		linkify: true,
 	};
+
+	eleventyConfig.setInputDirectory('src');
 
 	eleventyConfig.addPlugin(eleventyAutoCacheBuster);
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin);

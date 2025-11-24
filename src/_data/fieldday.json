@@ -1,0 +1,69 @@
+{
+  "arrlFieldDay": [{
+    "title": "ARRL Field Day Locator",
+    "link": "https://www.arrl.org/field-day-locator",
+    "classes": "green",
+    "gap": true
+  }, {
+    "title": "2024 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2024-compressed.pdf",
+    "classes": "red",
+    "gap": false
+  }, {
+    "title": "2022 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2022-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2021 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2021-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2018 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2018-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2017 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2017-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2016 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2016-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2015 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2015-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2014 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2014-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }, {
+    "title": "2012 Field Day",
+    "link": "https://media.swchrc.com/field-day-locator-2012-compressed.pdf",
+    "classes": "green",
+    "gap": false
+  }],
+  "winterFieldDay": [{
+    "title": "Winter Field Day Association",
+    "link": "https://winterfieldday.org/",
+    "classes": "blue",
+    "gap": true
+  }, {
+    "title": "2023 Winter Field Day",
+    "link": "https://media.swchrc.com/winter-field-day-2023-compressed.pdf",
+    "classes": "blue",
+    "gap": false
+  }, {
+    "title": "2021 Winter Field Day",
+    "link": "https://media.swchrc.com/winter-field-day-2021-compressed.pdf",
+    "classes": "blue",
+    "gap": false
+  }]
+}

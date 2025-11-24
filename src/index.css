@@ -147,6 +147,7 @@ body {
   }
 }
 
+
 input[type="text"] {
   padding: 0.5em 1.25em;
   margin: 0.5em 0;
@@ -200,6 +201,19 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+
+  .box-wrapper {
+    display: block;
+    width: 600px;
+    padding: 0.5em;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0.25em;
+  }
 }
 
 /* Buttons */
@@ -291,6 +305,31 @@ button {
   .columns,
   .two-column,
   .four-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 1em;
+
+  .header {
+    margin-bottom: 1em;
+  }
+
+  .btn {
+    margin-bottom: 0.5em;
+  }
+
+  .gap {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .two-column-wrapper {
     grid-template-columns: 1fr;
   }
 }
