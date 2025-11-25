@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>SWHRC</title>
+    <link rel="stylesheet" type="text/css" href="../index.css?v=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      {% include "header.html" %}
+
+      <div class="content-wrapper">
+        <div class="header gap">Silent Keys</div>
+        <div class="two-column-wrapper">
+          <div>
+            {% for item in silentkeys.left %}
+              <img src="{{ item.src }}" alt="{{ item.alt }}" />
+            {% endfor %}
+          </div>
+          <div>
+            {% for item in silentkeys.right %}
+              <img src="{{ item.src }}" alt="{{ item.alt }}" />
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      {% include 'footer.html' %}
+    </div>
+
+  </body>
+</html>

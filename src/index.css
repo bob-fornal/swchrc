@@ -301,6 +301,10 @@ button {
   &.sub {
     font-size: 1.1em;
   }
+
+  &.gap {
+    margin-bottom: 1em;
+  }
 }
 
 /* Columns */

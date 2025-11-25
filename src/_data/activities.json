@@ -1,0 +1,13 @@
+{
+  "left": [{
+    "type": "link",
+    "title": "Pizza Party Photos thanks to KE8SWY (YEAR)",
+    "link": "https://media.swchrc.com/swchrc-YEAR-pizza-party-compressed.pdf",
+    "classes": "blue"
+  }],
+  "right": [{
+    "type": "image",
+    "alt": "2016 SWCHRC Antenna Party",
+    "src": "https://media.swchrc.com/swchrc-2016-antenna-party.webp"
+  }]
+}

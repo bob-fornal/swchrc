@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>SWHRC</title>
+    <link rel="stylesheet" type="text/css" href="../index.css?v=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      {% include "header.html" %}
+
+      <div class="content-wrapper">
+        <div class="header gap">Club Activities</div>
+        <div class="two-column-wrapper">
+          <div>
+            {% for item in activities.left %}
+              {% if item.type === 'link' %}
+                <a class="btn small-text {{ item.classes }}" href="{{ item.link }}" target="_blank" data-filter="{{ item.title }}">{{ item.title }}</a>
+              {% else %}
+                <img src="{{ item.src }}" alt="{{ item.alt }}" />
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div>
+            {% for item in activities.right %}
+              {% if item.type === 'link' %}
+                <a class="btn small-text {{ item.classes }}" href="{{ item.link }}" target="_blank" data-filter="{{ item.title }}">{{ item.title }}</a>
+              {% else %}
+                <img src="{{ item.src }}" alt="{{ item.alt }}" />
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      {% include 'footer.html' %}
+    </div>
+
+  </body>
+</html>
