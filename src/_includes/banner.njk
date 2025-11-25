@@ -10,21 +10,18 @@
 
   <nav class="navigation-menu">
     <ul>
-      <li><a class="link" id="index" href="/index.html">Home</a></li>
-      <li><a class="link" id="links" href="/links/index.html">Links</a></li>
-      <li><a class="link" id="projects" href="/projects/index.html">Projects</a></li>
-      <li><a class="link" id="field-day" href="/field-day/index.html">Field Day</a></li>
-      <li><a class="link" id="activities" href="/activities/index.html">Activities</a></li>
-      <li><a class="link" id="silent-keys" href="/silent-keys/index.html">Silent Keys</a></li>
+      {% for item in menu %}
+        <li><a class="link" id="{{ item.id }}" href="{{ item.href }}">{{ item.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 </div>
 
 <script>
   const urlChecks = [
-    '/content2',
-    '/links',
-    '/index',
+    {% for item in menu | reverse %}
+      '{{ item.urlcheck }}',
+    {% endfor %}
   ];
   function selectLink(id) {
     const link = document.getElementById(id);

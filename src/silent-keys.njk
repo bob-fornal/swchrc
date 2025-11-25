@@ -1,22 +1,29 @@
 <html>
   <head>
     {% include 'head.html' %}
+    <style>
+      .silent-size {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper" id="wrapper">
-      {% include "banner.html" %}
+      {% include "banner.njk" %}
 
       <div class="content-wrapper">
         <div class="header gap">Silent Keys</div>
         <div class="two-column-wrapper">
           <div>
             {% for item in silentkeys.left %}
-              <img src="{{ item.src }}" alt="{{ item.alt }}" />
+              <img class="silent-size" src="{{ item.src }}" alt="{{ item.alt }}" />
+              <div class="gap"></div>
             {% endfor %}
           </div>
           <div>
             {% for item in silentkeys.right %}
-              <img src="{{ item.src }}" alt="{{ item.alt }}" />
+              <img class="silent-size" src="{{ item.src }}" alt="{{ item.alt }}" />
+              <div class="gap"></div>
             {% endfor %}
           </div>
         </div>

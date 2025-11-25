@@ -1,0 +1,38 @@
+[
+  {
+    "id": "index",
+    "href": "/index.html",
+    "urlcheck": "/index",
+    "title": "Home"
+  },
+  {
+    "id": "links",
+    "href": "/links/index.html",
+    "urlcheck": "/links",
+    "title": "Links"
+  },
+  {
+    "id": "projects",
+    "href": "/projects/index.html",
+    "urlcheck": "/projects",
+    "title": "Projects"
+  },
+  {
+    "id": "field-day",
+    "href": "/field-day/index.html",
+    "urlcheck": "/field-day",
+    "title": "Field Day"
+  },
+  {
+    "id": "activities",
+    "href": "/activities/index.html",
+    "urlcheck": "/activities",
+    "title": "Activities"
+  },
+  {
+    "id": "silent-keys",
+    "href": "/silent-keys/index.html",
+    "urlcheck": "/silent-keys",
+    "title": "Silent Keys"
+  }
+]
