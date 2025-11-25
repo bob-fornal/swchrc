@@ -22,6 +22,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("src/index.css");
 	eleventyConfig.addPassthroughCopy("src/assets");
+	eleventyConfig.addPassthroughCopy("src/site.webmanifest");
 
 	eleventyConfig.setLibrary("md", markdownIt(options).use(markdownItAnchor, {
 		permalink: markdownItAnchor.permalink.headerLink()
