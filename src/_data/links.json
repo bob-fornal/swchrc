@@ -1,6 +1,7 @@
 {
   "ORDER": [
     "club",
+    "members",
     "highlights",
     "ohio",
     "hardware",
@@ -45,6 +46,15 @@
       "title": "SWCHRC Application (PDF)",
       "link": "https://media.swchrc.com/swchrc-membership-application.pdf",
       "classes": "green"
+    }]
+  },
+  "members": {
+    "title": "Members",
+    "classes": "two-column",
+    "links": [{
+      "title": "Bob Fornal (KA8BOB)",
+      "link": "https://ka8bob.com",
+      "classes": "blue"
     }]
   },
   "ohio": {
