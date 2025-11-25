@@ -1,0 +1,16 @@
+{
+  "images": [
+    { "month": 1, "image": "header-base-image" },
+    { "month": 2, "image": "header-base-image" },
+    { "month": 3, "image": "header-base-image" },
+    { "month": 4, "image": "header-base-image" },
+    { "month": 5, "image": "header-base-image" },
+    { "month": 6, "image": "header-base-image" },
+    { "month": 7, "image": "header-base-image" },
+    { "month": 8, "image": "header-base-image" },
+    { "month": 9, "image": "header-base-image" },
+    { "month": 10, "image": "header-base-image" },
+    { "month": 11, "image": "header-base-image" },
+    { "month": 12, "image": "header-xmas-image" }
+  ]
+}
