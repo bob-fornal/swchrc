@@ -14,10 +14,32 @@
     "repair-shops",
     "vendors"
   ],
+  "club": {
+    "title": "Club",
+    "classes": "two-column",
+    "links": [{
+      "title": "SWCHRC Application (PDF)",
+      "link": "https://media.swchrc.com/swchrc-membership-application.pdf",
+      "classes": "green"
+    }]
+  },
+  "members": {
+    "title": "Members",
+    "classes": "two-column",
+    "links": [{
+      "title": "Bob Fornal (KA8BOB)",
+      "link": "https://ka8bob.com",
+      "classes": "blue"
+    }]
+  },
   "highlights": {
     "title": "Highlights",
     "classes": "two-column",
     "links": [{
+      "title": "Forbes: Ham Radio—There’s Still Magic In It",
+      "link": "https://www.forbes.com/sites/jimclash/2025/11/25/ham-radio-theres-still-magic-in-it-ask-three-million-people/",
+      "classes": "green"
+    }, {
       "title": "KD8WQU's Imguer Photo Links",
       "link": "https://imgur.com/user/KD8WQU",
       "classes": "red"
@@ -36,24 +58,6 @@
     }, {
       "title": "ARRL Amateur Radio Bands",
       "link": "https://www.arrl.org/images/view//Charts/Band_Chart_Image_for_ARRL_Web.jpg",
-      "classes": "blue"
-    }]
-  },
-  "club": {
-    "title": "Club",
-    "classes": "two-column",
-    "links": [{
-      "title": "SWCHRC Application (PDF)",
-      "link": "https://media.swchrc.com/swchrc-membership-application.pdf",
-      "classes": "green"
-    }]
-  },
-  "members": {
-    "title": "Members",
-    "classes": "two-column",
-    "links": [{
-      "title": "Bob Fornal (KA8BOB)",
-      "link": "https://ka8bob.com",
       "classes": "blue"
     }]
   },
@@ -261,6 +265,14 @@
     "links": [{
       "title": "Space Tracker (N2YO)",
       "link": "https://www.n2yo.com/?s=25544",
+      "classes": "blue"
+    }, {
+      "title": "EME Observer (User Guide)",
+      "link": "https://dxer.site/eme-observer/user-guide.html",
+      "classes": "blue"
+    }, {
+      "title": "EME Observer",
+      "link": "https://dxer.site/eme-observer/",
       "classes": "blue"
     }]
   },
