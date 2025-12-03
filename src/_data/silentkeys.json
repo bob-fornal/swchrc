@@ -1,16 +1,31 @@
 {
   "left": [{
-    "alt": "Stan Bogue KE8AVU",
+    "alt": "Stan Bogue KE8AVU: Sept 9, 2023",
     "src": "https://media.swchrc.com/silent-key-KE8AVU.webp"
   }, {
-    "alt": "Don Perkins AB8EL",
+    "alt": "Don Perkins AB8EL: June 24, 2023",
     "src": "https://media.swchrc.com/silent-key-AB8EL.webp"
+  }, {
+    "alt": "John C. Hamler K8BAT: Jan 3, 2023",
+    "src": "https://media.swchrc.com/silent-key-K8BAT.webp"
+  }, {
+    "alt": "Rick Shepherd KA8ERS: April 30, 2021",
+    "src": "https://media.swchrc.com/silent-key-KA8ERS.webp"
   }],
   "right": [{
     "alt": "Robert Rector W8RWR",
     "src": "https://media.swchrc.com/silent-key-W8RWR.webp"
   }, {
-    "alt": "Paul King",
+    "alt": "Paul King: Jan 3, 2017",
     "src": "https://media.swchrc.com/silent-key-PAUL-KING.webp"
+  }, {
+    "alt": "Michael Knies WB8MMR: July 24, 2012",
+    "src": "https://media.swchrc.com/silent-key-WB8MMR.webp"
+  }, {
+    "alt": "Marvin Kyer W8CRR: July 3, 2008",
+    "src": "https://media.swchrc.com/silent-key-W8CRR.webp"
+  }, {
+    "alt": "Ted Post Sr. N8KQN: May 23, 2006",
+    "src": "https://media.swchrc.com/silent-key-N8KQN.webp"
   }]
 }
