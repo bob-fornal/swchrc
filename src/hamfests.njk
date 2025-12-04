@@ -1,0 +1,41 @@
+<html>
+  <head>
+    {% include 'head.html' %}
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      {% include "banner.njk" %}
+
+      <div class="content-wrapper">
+        <div class="header gap">Hamfests</div>
+        <div class="two-column-wrapper">
+          <div>
+            {% for item in hamfests.left %}
+              {% if item.type == 'image' %}
+                <img class="silent-size" src="{{ item.src }}" alt="{{ item.title }}" />
+                <div class="subtitle">{{item.title}}</div>
+                <div class="gap"></div>
+              {% else %}
+                <a class="btn small-text {{ item.classes }}" href="{{ item.link }}" target="_blank" data-filter="{{ item.title }}">{{ item.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div>
+            {% for item in hamfests.right %}
+              {% if item.type == 'image' %}
+                <img class="silent-size" src="{{ item.src }}" alt="{{ item.title }}" />
+                <div class="subtitle">{{item.title}}</div>
+                <div class="gap"></div>
+              {% else %}
+                <a class="btn small-text {{ item.classes }}" href="{{ item.link }}" target="_blank" data-filter="{{ item.title }}">{{ item.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      {% include 'footer.html' %}
+    </div>
+
+  </body>
+</html>

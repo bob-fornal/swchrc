@@ -1,0 +1,32 @@
+{
+  "left": [{
+    "type": "link",
+    "title": "ARRL Hamfests Calendar: Ohio",
+    "link": "https://www.arrl.org/hamfests/search/Location.section_id:oh",
+    "classes": "blue"
+  }, {
+    "type": "link",
+    "title": "Dayton Hamvention",
+    "link": "https://hamvention.org/",
+    "classes": "green"
+  }, {
+    "type": "link",
+    "title": "Directions to Xenia from South Columbus (thanks to Terry N8TFC)",
+    "link": "https://media.swchrc.com/xenia-hamvention-directions-from-columbus.pdf",
+    "classes": "blue"
+  }, {
+    "type": "link",
+    "title": "The Saga of Hara Arena",
+    "link": "https://www.daytondailynews.com/google-search/?q=hara",
+    "classes": "blue"
+  }],
+  "right": [{
+    "type": "image",
+    "title": "2019 Hamvention: Roger N8FI, Terry N8TFC, & Greg W8NGA",
+    "src": "https://media.swchrc.com/hamvention-2019-001.webp"
+  }, {
+    "type": "image",
+    "title": "2019 Hamvention: Doug KD8OOT, Randy KD8NKY, Carl KE8CRY, & Dave KD8OCT",
+    "src": "https://media.swchrc.com/hamvention-2019-002.webp"
+  }]
+}

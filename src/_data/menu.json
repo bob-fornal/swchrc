@@ -34,5 +34,11 @@
     "href": "/silent-keys/index.html",
     "urlcheck": "/silent-keys",
     "title": "Silent Keys"
+  },
+  {
+    "id": "hamfests",
+    "href": "/hamfests/index.html",
+    "urlcheck": "/hamfests",
+    "title": "Hamfests"
   }
 ]
